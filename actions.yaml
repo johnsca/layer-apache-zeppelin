@@ -1,0 +1,8 @@
+set_password:
+  description: Set the password for BASIC auth
+  params:
+    password:
+      description: The password
+      type: string
+get_password:
+  description: Get the current password for BASIC auth
